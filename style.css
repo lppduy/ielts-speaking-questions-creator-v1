@@ -93,3 +93,9 @@ p {
   padding-top: 18px;
   color: rgba(19, 44, 68, 0.829);
 }
+
+.link,
+.link:visited {
+  color: rgb(59, 117, 80);
+  text-decoration: none;
+}
