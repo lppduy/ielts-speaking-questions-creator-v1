@@ -16,9 +16,12 @@ const generateHandler = () => {
   const random3 = Math.trunc(Math.random() * 51) + 1;
   console.log(btnGenerate);
 
-  const str1 = `<p>Ielts Speaking 1 Practice ${random1}.</p><p>I will update the feature to display the topic names and questions soon.</p>`;
-  const str2 = `<p>Ielts Speaking 2 Practice ${random2}.</p><p>I will update the feature to display the topic names and questions soon.</p>`;
-  const str3 = `<p>Ielts Speaking 3 Practice ${random3}.</p><p>I will update the feature to display the topic names and questions soon.</p>`;
+  const str1 = `<p>Ielts Speaking 1 Practice ${random1}.</p>`;
+  const str2 = `<p>Ielts Speaking 2 Practice ${random2}.</p>`;
+  const str3 = `<p>Ielts Speaking 3 Practice ${random3}.</p>`;
+  // const str1 = `<p>Ielts Speaking 1 Practice ${random1}.</p><p>I will update the feature to display the topic names and questions soon.</p>`;
+  // const str2 = `<p>Ielts Speaking 2 Practice ${random2}.</p><p>I will update the feature to display the topic names and questions soon.</p>`;
+  // const str3 = `<p>Ielts Speaking 3 Practice ${random3}.</p><p>I will update the feature to display the topic names and questions soon.</p>`;
   console.log(str1);
   console.log(str2);
   console.log(str3);
