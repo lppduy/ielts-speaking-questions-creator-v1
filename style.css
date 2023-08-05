@@ -54,7 +54,6 @@ p {
   cursor: pointer;
   font-weight: 400;
 
-  background-color: #20c15c;
   background-color: #3175f1;
   backdrop-filter: blur(10px);
 
@@ -80,7 +79,6 @@ p {
 }
 
 #creator {
-  /* margin-top: 18px; */
   padding-top: 18px;
   color: rgba(19, 44, 68, 0.829);
 }
@@ -108,6 +106,9 @@ p {
   .btn {
     font-size: 18px;
     padding: 8px 16px;
+  }
+  .btn:hover {
+    background-color: #3175f1;
   }
 
   .content p {
