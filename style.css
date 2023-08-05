@@ -36,19 +36,6 @@ h1 {
   color: #333;
 }
 
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
 h2 {
   color: #555;
   margin-top: 20px;
@@ -74,6 +61,10 @@ p {
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #0056b3;
 }
 
 .content {
